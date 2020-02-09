@@ -33,5 +33,6 @@
         "JmModules\\ModuleServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
