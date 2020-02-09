@@ -24,7 +24,7 @@
   "autoload": {
     "psr-4": {
       "JmModules\\": "src/",
-      "App\\": "../../../jm-modules/"
+      "JmModules\\": "../../../jm-modules/"
     }
   },
   "extra": {
@@ -33,10 +33,5 @@
         "JmModules\\ModuleServiceProvider"
       ]
     }
-  },
-  "scripts": {
-    "post-create-project-cmd": [
-      "php artisan vendor:publish --provider=\"JmModules\\ModuleServiceProvider\""
-    ]
   }
 }
