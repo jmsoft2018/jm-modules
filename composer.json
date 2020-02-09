@@ -24,7 +24,7 @@
   "autoload": {
     "psr-4": {
       "JmModules\\": "src/",
-      "JmModules\\": "../../../jm-modules/"
+      "App\\": "../../../jm-modules/"
     }
   },
   "extra": {
