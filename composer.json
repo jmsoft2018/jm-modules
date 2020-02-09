@@ -33,5 +33,10 @@
         "JmModules\\ModuleServiceProvider"
       ]
     }
+  },
+  "scripts": {
+    "post-package-install": [
+      "@php artisan vendor:publish --provider=JmModules\ModulesServiceProvider"
+    ]
   }
 }
