@@ -1,7 +1,6 @@
 {
   "name": "jmsoft/jm-modules",
   "description": "Package for using module structure in Laravel",
-  "version": "1.0.0",
   "type": "library",
   "keywords": [
     "laravel",
