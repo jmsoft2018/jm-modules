@@ -1,7 +1,9 @@
 <?php
 namespace JmModules;
-/* Сервис провайдер для подключения модулей */
-class ModuleServiceProvider extends \Illuminate\Support\ServiceProvider {
+
+use Illuminate\Support\ServiceProvider;
+
+class ModuleServiceProvider extends ServiceProvider {
 
     public function boot(){
         $this->publishes([__DIR__ . '/../jm-modules' => base_path().'/jm-modules']);
