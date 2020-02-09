@@ -35,8 +35,8 @@
     }
   },
   "scripts": {
-    "post-autoload-dump": [
-      "@php artisan vendor:publish --provider=\"JmModules\\ModuleServiceProvider\""
+    "post-create-project-cmd": [
+      "php -r \"copy('jm-modules/config.php', 'jm-modules/config.php');\""
     ]
   }
 }
