@@ -23,8 +23,8 @@
   },
   "autoload": {
     "psr-4": {
-      "JmModules\\": "src",
-      "JmModules\\": "../../../jm-modules"
+      "JmModules\\": "src/",
+      "JmModules\\": "../../../jm-modules/"
     }
   },
   "extra": {
