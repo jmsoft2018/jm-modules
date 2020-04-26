@@ -3,7 +3,7 @@ namespace JmModules;
 
 use Illuminate\Support\ServiceProvider;
 
-class ModuleServiceProvider extends ServiceProvider {
+class JmModuleServiceProvider extends ServiceProvider {
 
     public function boot(){
         $this->publishes([__DIR__ . '/../jm-modules' => base_path().'/jm-modules']);
