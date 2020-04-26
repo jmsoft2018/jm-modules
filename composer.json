@@ -20,7 +20,7 @@
   },
   "require": {
     "php": ">=7.0.0",
-    "msoft/telegrambot": "*"
+    "jmsoft/telegrambot": "dev-master"
   },
   "autoload": {
     "psr-4": {
