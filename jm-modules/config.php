@@ -1,5 +1,7 @@
 <?php
 
 return [
-    'modules' => [],
+    'modules' => [
+        'Telegrambot'
+    ],
 ];

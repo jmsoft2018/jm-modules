@@ -19,7 +19,8 @@
     "source": "https://github.com/jmsoft2018/jm-modules"
   },
   "require": {
-    "php": ">=7.0.0"
+    "php": ">=7.0.0",
+    "msoft/telegrambot": "*"
   },
   "autoload": {
     "psr-4": {

@@ -6,7 +6,12 @@ use Illuminate\Support\ServiceProvider;
 class JmModuleServiceProvider extends ServiceProvider {
 
     public function boot(){
-        $this->publishes([__DIR__ . '/../jm-modules' => base_path().'/jm-modules']);
+        $this->publishes(
+            [
+                __DIR__ . '/../jm-modules' => base_path().'/jm-modules',
+                __DIR__ . '/../../telegrambot/Telegrambot' => base_path().'/jm-modules/Telegrambot'
+            ]
+        );
         //получаем список модулей, которые надо подгрузить
         //Подключаем конфигурация
         if(file_exists(base_path('jm-modules/config.php'))){
