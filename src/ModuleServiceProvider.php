@@ -1,5 +1,5 @@
 <?php
-namespace JmModules;
+namespace JMsoft\Modules;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -24,14 +24,14 @@
   },
   "autoload": {
     "psr-4": {
-      "JmModules\\": "src/",
-      "App\\": "../../../jm-modules/"
+      "JMsoft\\Modules\\": "src/",
+      "JMsoft\\": "../../../jm-modules/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "JmModules\\ModuleServiceProvider"
+        "JMsoft\\Modules\\ModuleServiceProvider"
       ]
     }
   }
