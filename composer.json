@@ -31,7 +31,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "JmModules\\JmModuleServiceProvider"
+        "JmModules\\ModuleServiceProvider"
       ]
     }
   }

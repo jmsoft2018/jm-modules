@@ -3,7 +3,7 @@ namespace JmModules;
 
 use Illuminate\Support\ServiceProvider;
 
-class JmModuleServiceProvider extends ServiceProvider {
+class ModuleServiceProvider extends ServiceProvider {
 
     public function boot(){
         $this->publishes(
